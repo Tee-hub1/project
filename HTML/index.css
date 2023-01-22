@@ -1,0 +1,61 @@
+/* Targetting HTML Elements */
+body{
+    background-color: lightblue;
+    padding: 100px;
+}
+h2{
+    color: red;
+    font-size:50px;
+}
+/* Targetting HTML classes */
+.header{
+    color: white;
+    font-size:50px;
+}
+/* Targetting HTML id */
+#header{
+    color: white;
+    font-size:50px;
+}
+/* Creating a Table in HTML */
+table{
+    width:100%;
+    border: 1px solid rgb(22, 18, 16) ;
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid rgb(234, 241, 234);
+    padding:8px;
+    text-align:center ;
+}
+tr:hover{
+    background-color: brown;
+}
+ol li{
+    color: green;
+}
+ol ol li {
+    color: white;
+}
+ol ul li{
+    color: brown;
+}
+.button{
+    color:rgb(247, 240, 240);
+    background-color:rgb(250, 20, 12);
+    border-radius: 20px;
+    padding:5px 20px;
+    border:0px;
+    transition: 1s;
+}
+button:hover{ 
+        background-color:rgb(42, 141, 100);
+        padding: 5px 40px;
+    }
+    button a:hover{
+        color:black
+    }
+button a{
+    text-decoration: none;
+    color:white
+}

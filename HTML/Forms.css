@@ -1,0 +1,35 @@
+ /* *{display:none;} */
+ body{
+    background-color: rgb(250, 248, 249);
+    text-align: center;
+  }  
+ .input{
+    width:20%;
+    padding:12px
+  }
+  .inputA{width:4%;}
+  .input6{
+    width:20%;
+    height:20%;
+    padding:10px;
+    font-size:17px;
+  }
+  .button{
+    color:grey;
+    background-color:rgb(176, 200, 207);
+    border-radius: 20px;
+    padding:5px 20px;
+    border:0px;
+    transition: 1s;
+}
+.button:hover{
+    background-color: gainsboro;
+    padding: 5px 40px;
+}
+.button a :hover{
+    color:black;
+}
+button a{
+    text-decoration: none;
+    color:white
+}
